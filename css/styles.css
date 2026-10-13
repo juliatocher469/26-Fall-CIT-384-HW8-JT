@@ -1,0 +1,147 @@
+/* Color Palette
+#CCA4B4 - color 1
+#917278 - color 2
+#ba989f - color 3
+#f9e0e0 - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+   /* background: #CCA4B4; */
+   margin: 0;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;   
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Nav & Header & Footer 
+------------------------------------*/
+/* Navigation bar styling */
+nav {
+    background: #917278;
+    display: flex;
+    justify-content: center;   
+    gap: 30px;                 
+    padding: 15px;
+}
+
+nav a {
+    color: rgb(28, 10, 0);            
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* turns "About" into "ABOUT" */
+    text-decoration: none;     /* removes the underline */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #ba989f;
+    font-family: "Playfair Display", serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.profile-img {
+   /* width: 300px; */
+    border-radius:50%;
+   /* float: left; */
+   /* margin-right: 30px; */
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+#tagline {
+    font-weight: 540;
+    font-size: 1.8em;
+}
+
+footer {
+    text-align: center;
+}
+
+#footer {
+    background: #917278;
+}
+
+#contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+#work-experience {
+    background: #f9e0e0;
+    font-family: "Playfair Display", serif;;
+}
+
+
+
+/* Education
+------------------------------------*/
+#education {
+    font-family: "Playfair Display", serif;
+    background-image:
+        linear-gradient(
+            rgba(186, 152, 159, 0.8),rgba(186, 152, 159, 0.8)),
+        url(../images/csun_library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#education p {
+    font-size: 25px;
+    font-weight: 400;
+}
