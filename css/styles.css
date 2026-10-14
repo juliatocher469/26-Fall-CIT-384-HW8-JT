@@ -50,9 +50,12 @@ p {
 nav {
     background: #917278;
     display: flex;
-    justify-content: center;   
-    gap: 30px;                 
+    gap: 30px;
+    justify-content: center;
+    position: fixed;                    
     padding: 15px;
+    left: 10px;
+    right: 10px;
 }
 
 nav a {
@@ -132,6 +135,7 @@ footer {
 ------------------------------------*/
 #education {
     font-family: "Playfair Display", serif;
+    background-attachment: fixed;
     background-image:
         linear-gradient(
             rgba(186, 152, 159, 0.8),rgba(186, 152, 159, 0.8)),
