@@ -8,6 +8,7 @@
 /* Global styles 
 ------------------------------------*/
 html {
+    scroll-padding-top: 70px;
 	box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -75,6 +76,7 @@ nav a:hover {
 header {
     background: #ba989f;
     font-family: "Playfair Display", serif;
+    padding-top: 55px;
 }
 
 header h1 {
